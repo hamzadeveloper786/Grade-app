@@ -2,7 +2,7 @@ let enterYourPer = prompt("Enter your percentage:")
 
 console.log(enterYourPer)
 
-let valuea1 = ("100")
+let valuea1 = ("80")
 
 let valuea = ("70")
 
@@ -14,7 +14,10 @@ let valued = ("45")
 
 let valuee = ("39")
 
-if(enterYourPer >= valuea1){
+if(enterYourPer > 100){
+    console.log("Invalid percentage please enter your percentage between 0 to 100")
+    alert("Invalid percentage please enter your percentage between 0 to 100")
+}else if(enterYourPer > valuea1){
     console.log("A1")
    alert("A1")
 } else if(enterYourPer > valuea){
@@ -32,12 +35,9 @@ if(enterYourPer >= valuea1){
 }else if(enterYourPer > valuee){
     console.log("E")
     alert("E")
-}else if(enterYourPer >= 0){
+}else if(enterYourPer <= 39){
     console.log("F");
     alert("F");
-}else if(enterYourPer > 100){
-    console.log("Invalid percentage please enter your percentage between 0 to 100")
-    alert("Invalid percentage please enter your percentage between 0 to 100")
 }else{
     console.log("Invalid percentage please enter your percentage between 0 to 100")
     alert("Invalid percentage please enter your percentage between 0 to 100")
