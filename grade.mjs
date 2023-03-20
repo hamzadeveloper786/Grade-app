@@ -17,7 +17,7 @@ let valuee = ("39")
 if(enterYourPer > 100){
     console.log("Invalid percentage please enter your percentage between 0 to 100")
     alert("Invalid percentage please enter your percentage between 0 to 100")
-}else if(enterYourPer > valuea1){
+}else if(enterYourPer > valuea1 || enterYourPer <= 100){
     console.log("A1")
    alert("A1")
 } else if(enterYourPer > valuea){
